@@ -1,0 +1,42 @@
+# --- Gradle ---
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Config local (ruta del SDK, etc.)
+local.properties
+
+# --- Android Studio / IntelliJ ---
+*.iml
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/libraries
+.idea/**/caches
+.idea/**/shelf
+
+# --- Salidas de compilación ---
+*.apk
+*.ap_
+*.aab
+captures/
+
+# --- NDK / C++ ---
+.externalNativeBuild/
+.cxx/
+obj/
+**/objs/
+**/libs/
+
+# --- Kotlin / Misc ---
+*.kotlin_module
+*.log
+
+# SO / basura
+.DS_Store
+Thumbs.db
+
+# Keystores (no subir llaves privadas)
+*.jks
+*.keystore
